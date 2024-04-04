@@ -1,8 +1,14 @@
 import React from "react";
+import Home from "./pages/Home";
 
 const App: React.FC = () => {
 
-  return <h1 className="text-3xl text-fuchsia-700 font-bold underline">Hello, world!</h1>;
+  return (
+
+    <Home />
+
+  );
+
 };
 
-export default App
+export default App;
